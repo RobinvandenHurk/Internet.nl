@@ -330,7 +330,7 @@ class RpkiValid(Subtest):
             explanation=f"detail {self._label} rpki {self._test_label} exp",
             tech_string=f"detail {self._label} rpki {self._test_label} tech table",
             init_tech_type="table",
-            full_score=scoring.RPKI_EXISTS_GOOD,
+            full_score=scoring.RPKI_VALID_GOOD,
             model_score_field=self._score_field,
         )
 
